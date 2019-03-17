@@ -4,7 +4,7 @@
 import requests
 import bs4 as bs
 import json
-with open("missing_articles.json") as file:
+with open("article_links.json") as file:
 	links = json.load(file)
 
 keys = [i for i in links.keys()]
